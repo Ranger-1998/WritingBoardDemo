@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WritingBoardView">
+        <attr name="paintColor" format="color"></attr>
+        <attr name="paintSize" format="dimension"></attr>
+        <attr name="eraserSize" format="dimension"></attr>
+        <attr name="menuBgColor" format="color"></attr>
+        <attr name="BoardColor" format="color"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="SignaturePad">
+        <attr name="minWidth" format="float" />
+        <attr name="maxWidth" format="float" />
+        <attr name="penColor" format="color" />
+        <attr name="velocityFilterWeight" format="float" />
+    </declare-styleable>
+</resources>
